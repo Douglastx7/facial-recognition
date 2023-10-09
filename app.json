@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "facialrecognition",
+    "name": "D7.LF",
     "slug": "facialrecognition",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -16,9 +16,16 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.douglastx007.facialrecognition"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "46ad82fb-9917-4ea6-8b33-3bd0315c4677"
       }
     }
   }
